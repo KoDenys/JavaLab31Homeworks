@@ -9,9 +9,6 @@ public class Main {
         ApplicationContext context = new AnnotationConfigApplicationContext(BeansConfig.class);
         context.getBean(Pet.class).printPets();
 
-
-
-
     }
 
 
